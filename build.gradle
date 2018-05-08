@@ -29,8 +29,8 @@ publishing {
   publications {
     target(MavenPublication) {
       groupId  'com.cm55'
-      artifactId 'digester'
-      version '1.0.0'    
+      artifactId 'digesterwrap'
+      version '1.0.1'    
       from components.java   
       artifact sourceJar
     }
