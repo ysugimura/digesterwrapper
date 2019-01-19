@@ -145,7 +145,7 @@ public class CDElementParser {
   }
   
   public <T extends CDElement>T parse(String text) {
-    System.out.println("" + text);
+    //ystem.out.println("" + text);
     return parse(new StringReader(text));
   }
 }
